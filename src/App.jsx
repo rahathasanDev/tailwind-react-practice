@@ -8,8 +8,64 @@ function App() {
 
   return (
     <>
-      <h1 className='text-5xl m-3 ' >Palestine is Ours </h1>
-      <p className='text-xl list-none m-6 p-4'>
+    <div >
+ 
+
+    <nav className="bg-sky-500 emerald-500 p-3  ">
+      <div className="container mx-auto flex justify-between items-center">
+        {/* Logo */}
+        <div>
+          <a href="#" className="text-black text-3xl font-serif">Free Palestine</a>
+        </div>
+
+        {/* Navigation Links */}
+        <div>
+          <ul className="flex space-x-5 text-lg font-semibold">
+            <li><a href="#" className="text-green hover:text-red-500">Home</a></li>
+            <li><a href="#" className="text-green hover:text-red-500">About</a></li>
+            <li><a href="#" className="text-green hover:text-red-500">Services</a></li>
+            <li><a href="#" className="text-green hover:text-red-500">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div >
+    <h1 className='text-5xl m-3 font-semibold ' >Palestine is Ours </h1>
+      <h3 className='text-3xl font-serif p-8'>In the land where olive trees stand tall,
+Beneath a sky that has seen it all.
+Palestine whispers tales of yore,
+Of struggles endured, dreams to restore.
+
+Amidst ancient stones, a resilient song,
+Echoes of history, both bitter and strong.
+In the embrace of sunsets, golden and warm,
+A longing for peace weathers every storm.
+
+Silhouettes dance on the shores of despair,
+Yet hope blooms in the Palestinian air.
+A tapestry woven with threads of strife,
+Threads of resilience, the essence of life.
+
+Gaza to Bethlehem, Hebron to the sea,
+A mosaic of dreams, where hearts roam free.
+Jerusalem's call echoes through time,
+A melody of courage, an anthem to climb.
+
+In the moonlit night, stars softly weep,
+For the children of Palestine, in quiet sleep.
+Yet, in every tear, a resolve takes flight,
+To carve a path through the darkest night.
+
+May peace find its way to this ancient land,
+A land where love and understanding stand.
+In the echo of prayers, in every sunrise,
+May the world unite, where justice lies.</h3>
+    </div>
+ 
+
+    </div>
+      
+      <p className='text-2xl list-none m-6 p-4'>
         <li className='li'>1. "The only way to do great work is to love what you do." - Steve Jobs</li>
         <li>2. "Believe you can and you're halfway there." - Theodore Roosevelt
         </li>
